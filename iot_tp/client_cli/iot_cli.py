@@ -92,7 +92,7 @@ def add_send_image_parser(subparsers, parent_parser):
         help='image path')
 
     parser.add_argument(
-        '---url',
+        '--url',
         type=str,
         help='specify URL of REST API')
 
